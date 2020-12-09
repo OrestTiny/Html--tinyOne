@@ -174,6 +174,7 @@ body {
       margin-bottom: 80px; }
       .response form label input {
         width: 100%;
+        height: 100%;
         border: none;
         outline: none;
         border-radius: 5px;
@@ -250,8 +251,43 @@ body {
     padding: 40px 0 20px 0; } }
 
 @media (max-width: 576px) {
+  .header {
+    padding-bottom: 25px; }
+  .header .top_header {
+    padding: 15px 0 30px; }
   .header .top_header .nav a {
     margin-left: 10px;
-    font-size: 18px; }
+    font-size: 16px; }
   .logo img {
-    width: 100px; } }
+    width: 100px; }
+  .response form label {
+    flex-wrap: wrap;
+    justify-content: center; }
+    .response form label input {
+      margin-bottom: 15px;
+      margin-right: 0; }
+    .response form label button {
+      width: 100%; }
+  .inner h2 {
+    font-size: 24px; }
+  .header .bot_header .item .info .inner h3 {
+    font-size: 18px; }
+  .header .bot_header .item .info .inner p {
+    font-size: 13px;
+    text-align: center; }
+  body h2 {
+    font-size: 24px; }
+  body .title h5 {
+    font-size: 18px; }
+  .features .items .item {
+    margin-bottom: 30px; }
+  .features .items .item .info_title {
+    font-size: 20px; }
+  .features .items .item .info_content {
+    font-size: 13px; }
+  .features .title {
+    margin-bottom: 40px; }
+  .response .main ul li a {
+    font-size: 13px; }
+  .response .main ul li {
+    font-size: 13px; } }
